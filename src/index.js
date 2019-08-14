@@ -12,7 +12,7 @@ function App() {
         aria-label="speechBubble"
         role="img"
         animate={{
-          scale: [0.6, 0.7, 0.6, 0.7, 0.6]
+          scale: [6, 7, 6, 7, 6]
         }}
         transition={{
           duration: 2,
@@ -31,14 +31,14 @@ function App() {
         aria-label="penguin"
         role="img"
         animate={{
-          scale: [1, 1.5, 2, 2.5, 2]
+          scale: [5, 10, 15, 20, 25, 30]
         }}
         transition={{
-          duration: 0.5,
+          duration: 1,
           ease: "easeInOut"
         }}
-        whileHover={{ scale: 2.5 }}
-        whileTap={{ rotate: [5, -5, 5, 0] }}
+        whileHover={{ scale: 35 }}
+        whileTap={{ rotate: [0, 5, -5, 5, 0] }}
       >
         <span role="img" aria-label="Penguin">
           🐧
